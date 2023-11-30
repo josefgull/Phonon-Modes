@@ -1,6 +1,6 @@
 # Phonon-Modes (Motion of crystal lattice Atoms)
-Hi, here I want to save visualizations of phonon modes in Python.
-I have already done 
+Hi, here I want to save Animations of phonon modes done in Python.
+
 ## acoustic modes: 
 ![Alt Text](./AcousticPhononModes.gif)
 All crystal atoms lay at the planes in the picture above  

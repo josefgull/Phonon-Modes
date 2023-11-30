@@ -20,8 +20,6 @@ So the function $k(\omega)$ is unique for every material.
 As $k$ gets higher, the point is reached where the spatial period is shorter than the distance between 2 atomic planes.
 This means the Nyquist criterion is violated (more than two points/spacial period are needed to identify the frequency of a sinewave through these points) and aliasing effects can be seen.
 
-At this point, the domain of optical phonons is entered. 
-
-
-
-now I want to do the optic ones as well. 
+At this point, we enter the domain of 
+## optical phonons: 
+![Alt Text](./OpticPhononModes.gif)

@@ -1,25 +1,28 @@
-# Phonon-Modes (Motion of crystal lattice Atoms)
-Hi, here I want to save Animations of phonon modes done in Python.
+# Phonon Modes — Motion of Crystal Lattice Atoms
 
-## acoustic modes: 
-![Alt Text](./AcousticPhononModes.gif)
-All crystal atoms lay at the planes in the picture above  
+## Acoustic Modes
+![Acoustic Phonons](./phonon_acoustic.gif)
 
+All crystal atoms lie on planes. The displacement \(D\) in transversal modes is:
 
-The displacement $D$ of those planes in transversal modes is given as:   
-D(x,t) = **A** $\sin$(kx - $\omega$ t)  
-Where $k$ is the inverse of the length of one oscillation in space  
-and $\omega$ is the inverse of the duration of one oscillation in time.
+\[
+D(x, t) = A \, \sin(k x - \omega t)
+\]
 
+Where:
+- \(A\) is the amplitude
+- \(k\) is the wave number (inverse of spatial wavelength)
+- \(\omega\) is the angular frequency (inverse of temporal period)
 
-The wavenumber $k(\omega)$ is a function of $\omega$.  
-The exact expression follows from the solution of Schrödinger's equation of the potential that is given through the lattice atoms.  
-So the function $k(\omega)$ is unique for every material. 
+As \(k\) increases, the wavelength can become comparable to or smaller than the spacing between atomic planes.  
+In this regime, the discrete lattice cannot fully resolve the wave, and the oscillation appears visually “folded” or aliased.
 
+---
 
-As $k$ gets higher, the point is reached where the spatial period is shorter than the distance between 2 atomic planes.
-This means the Nyquist criterion is violated (more than two points/spacial period are needed to identify the frequency of a sinewave through these points) and aliasing effects can be seen.
+## Optical Phonons
+![Optical Phonons](./phonon_optical.gif)
 
-At this point, we enter the domain of 
-## optical phonons: 
-![Alt Text](./OpticPhononModes.gif)
+Neighboring atoms oscillate **out of phase**.  
+Neighboring atoms move out of phase, producing a high-frequency internal vibration with little net displacement of the lattice.
+
+Optical modes typically occur in lattices with **more than one atom per unit cell**, and differ from acoustic modes due to the **phase alternation between neighbors**.

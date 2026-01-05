@@ -5,14 +5,14 @@
 
 All crystal atoms lie on planes. The displacement \(D\) in transversal modes is:
 
-\[
+$$
 D(x, t) = A \, \sin(k x - \omega t)
-\]
+$$
 
 Where:
-- \(A\) is the amplitude
-- \(k\) is the wave number (inverse of spatial wavelength)
-- \(\omega\) is the angular frequency (inverse of temporal period)
+- $A$ is the amplitude
+- $k$ is the wave number (inverse of spatial wavelength)
+- $\omega$ is the angular frequency (inverse of temporal period)
 
 As \(k\) increases, the wavelength can become comparable to or smaller than the spacing between atomic planes.  
 In this regime, the discrete lattice cannot fully resolve the wave, and the oscillation appears visually “folded” or aliased.
